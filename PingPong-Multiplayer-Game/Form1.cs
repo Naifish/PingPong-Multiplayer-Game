@@ -19,7 +19,6 @@ namespace PingPong_Multiplayer_Game
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Welcome to Ping Pong Game");
         }
     }
 }
