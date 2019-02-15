@@ -19,6 +19,14 @@ namespace PingPong_Multiplayer_Game
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            
+            p2_score_lbl.Visible = false;
+            p2_points_lbl.Visible = false;
+            p1_score_lbl.Visible = false;
+            p1_points_lbl.Visible = false;
+
+            //sp.PlayLooping();
+            //sp.Play();
         }
     }
 }
