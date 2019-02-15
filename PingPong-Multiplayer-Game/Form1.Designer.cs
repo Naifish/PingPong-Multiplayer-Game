@@ -81,6 +81,7 @@
             // timer1
             // 
             this.timer1.Interval = 10;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // exit_pb
             // 
@@ -93,6 +94,7 @@
             this.exit_pb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.exit_pb.TabIndex = 45;
             this.exit_pb.TabStop = false;
+            this.exit_pb.Click += new System.EventHandler(this.exit_pb_Click);
             // 
             // backtodificulty_pb
             // 
@@ -106,6 +108,7 @@
             this.backtodificulty_pb.TabIndex = 44;
             this.backtodificulty_pb.TabStop = false;
             this.backtodificulty_pb.Visible = false;
+            this.backtodificulty_pb.Click += new System.EventHandler(this.backtodificulty_pb_Click);
             // 
             // Player2
             // 
@@ -261,6 +264,7 @@
             // timer2
             // 
             this.timer2.Interval = 1000;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // ip_tb
             // 
@@ -284,6 +288,7 @@
             this.joinplayer_btn.Text = "Join player";
             this.joinplayer_btn.UseVisualStyleBackColor = false;
             this.joinplayer_btn.Visible = false;
+            this.joinplayer_btn.Click += new System.EventHandler(this.joinplayer_btn_Click);
             // 
             // creatserver_btn
             // 
@@ -297,6 +302,7 @@
             this.creatserver_btn.Text = "Creat server and wait for the player";
             this.creatserver_btn.UseVisualStyleBackColor = false;
             this.creatserver_btn.Visible = false;
+            this.creatserver_btn.Click += new System.EventHandler(this.creatserver_btn_Click);
             // 
             // backtoplaymod_pb
             // 
@@ -310,6 +316,7 @@
             this.backtoplaymod_pb.TabIndex = 39;
             this.backtoplaymod_pb.TabStop = false;
             this.backtoplaymod_pb.Visible = false;
+            this.backtoplaymod_pb.Click += new System.EventHandler(this.backtoplaymod_pb_Click);
             // 
             // expert_btn
             // 
@@ -323,6 +330,7 @@
             this.expert_btn.Text = "Expert";
             this.expert_btn.UseVisualStyleBackColor = false;
             this.expert_btn.Visible = false;
+            this.expert_btn.Click += new System.EventHandler(this.expert_btn_Click);
             // 
             // hard_btn
             // 
@@ -336,6 +344,7 @@
             this.hard_btn.Text = "Hard";
             this.hard_btn.UseVisualStyleBackColor = false;
             this.hard_btn.Visible = false;
+            this.hard_btn.Click += new System.EventHandler(this.hard_btn_Click);
             // 
             // easy_btn
             // 
@@ -349,6 +358,7 @@
             this.easy_btn.Text = "Easy";
             this.easy_btn.UseVisualStyleBackColor = false;
             this.easy_btn.Visible = false;
+            this.easy_btn.Click += new System.EventHandler(this.easy_btn_Click);
             // 
             // backtomain_pb
             // 
@@ -362,6 +372,7 @@
             this.backtomain_pb.TabIndex = 34;
             this.backtomain_pb.TabStop = false;
             this.backtomain_pb.Visible = false;
+            this.backtomain_pb.Click += new System.EventHandler(this.backtomain_pb_Click);
             // 
             // onlineply_btn
             // 
@@ -375,6 +386,7 @@
             this.onlineply_btn.Text = "Play Online";
             this.onlineply_btn.UseVisualStyleBackColor = false;
             this.onlineply_btn.Visible = false;
+            this.onlineply_btn.Click += new System.EventHandler(this.onlineply_btn_Click);
             // 
             // multiplyr_btn
             // 
@@ -388,6 +400,7 @@
             this.multiplyr_btn.Text = "Multiplayer (Same Compuert)";
             this.multiplyr_btn.UseVisualStyleBackColor = false;
             this.multiplyr_btn.Visible = false;
+            this.multiplyr_btn.Click += new System.EventHandler(this.multiplyr_btn_Click);
             // 
             // singleplyr_btn
             // 
@@ -401,6 +414,7 @@
             this.singleplyr_btn.Text = "Single Player";
             this.singleplyr_btn.UseVisualStyleBackColor = false;
             this.singleplyr_btn.Visible = false;
+            this.singleplyr_btn.Click += new System.EventHandler(this.singleplyr_btn_Click);
             // 
             // volume_pb
             // 
@@ -414,6 +428,7 @@
             this.volume_pb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.volume_pb.TabIndex = 30;
             this.volume_pb.TabStop = false;
+            this.volume_pb.Click += new System.EventHandler(this.volume_pb_Click);
             // 
             // options_lbl
             // 
@@ -438,6 +453,7 @@
             this.exitgame_btn.TabIndex = 28;
             this.exitgame_btn.Text = "Exit Game";
             this.exitgame_btn.UseVisualStyleBackColor = false;
+            this.exitgame_btn.Click += new System.EventHandler(this.exitgame_btn_Click);
             // 
             // howtoply_btn
             // 
@@ -450,6 +466,7 @@
             this.howtoply_btn.TabIndex = 27;
             this.howtoply_btn.Text = "How To Play";
             this.howtoply_btn.UseVisualStyleBackColor = false;
+            this.howtoply_btn.Click += new System.EventHandler(this.howtoply_btn_Click);
             // 
             // startgame_btn
             // 
@@ -462,6 +479,7 @@
             this.startgame_btn.TabIndex = 26;
             this.startgame_btn.Text = "Start Game";
             this.startgame_btn.UseVisualStyleBackColor = false;
+            this.startgame_btn.Click += new System.EventHandler(this.startgame_btn_Click);
             // 
             // waitingforplyr_lbl
             // 
